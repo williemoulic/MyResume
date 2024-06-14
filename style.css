@@ -1,0 +1,142 @@
+html,body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+p{
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+.background-page {
+  color: #000 !important;
+  background-color: #EEEEEE !important;
+}
+/*Page Container*/
+.page-container {
+  margin:16px!important;
+  padding:16px!important;;
+}
+/*Grid Container*/
+.grid-container {
+  padding: 0 8px;
+}
+/*left box*/
+.left-container{
+  float: left;
+  width: 100%;
+  position: relative;
+  box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+}
+
+.image-container{
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+}
+
+@media (min-width:601px){.left-container{
+  width:33.33333%}
+}
+.image-text{
+  position: absolute;
+  left: 16px;
+  bottom: 5%;
+  color:#000!important;
+}
+.info-container{
+  top:16px;
+  content:"";
+  display:table;
+  clear:both;
+  background-color: #948979;
+  width: 100%;
+}
+.icon{
+  margin-left: 8px;
+  margin-right:8px!important;
+  color: darkgrey;
+}
+hr{
+  border:0;
+  border-top:1px solid #EEEEEE !important;
+  margin:20px 0;
+}
+ul{
+  color: whitesmoke;
+  list-style: none;
+}
+
+li::before{
+  content: '--';
+  margin-right: 6px;
+}
+
+/*right box*/
+.right-container{
+  float: right;
+  width: 100%;
+  position: relative;
+  left: 16px;
+  box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  color:whitesmoke!important;
+  background-color:#3C5B6F!important;
+}
+
+@media (min-width:601px){.right-container{
+  width:66.66666%}
+}
+
+.right-header{
+  padding: 16px;
+}
+
+.big-icon{
+  margin-right:8px!important;
+  color: darkgrey;
+}
+
+.work-container{
+  margin-top: 16px;
+  margin-bottom:16px!important;
+}
+
+.job-title{
+  margin-left: 16px;
+}
+
+.work-icon{
+  margin-left: 16px;
+  margin-right: 8px;
+}
+
+.education-container{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.bottom-hr{
+  border:0;
+  border-top:15px solid #EEEEEE!important;
+  margin:20px 0;
+  box-shadow: none;
+}
+
+.course-title{
+  margin-left: 16px;
+}
+
+.cert-title{
+  margin-left: 16px;
+}
+  
+
