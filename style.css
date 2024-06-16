@@ -110,7 +110,7 @@ li::before{
   margin-bottom:16px!important;
 }
 
-.job-title{
+.h3-title{
   margin-left: 16px;
 }
 
@@ -131,12 +131,5 @@ li::before{
   box-shadow: none;
 }
 
-.course-title{
-  margin-left: 16px;
-}
-
-.cert-title{
-  margin-left: 16px;
-}
   
 
